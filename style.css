@@ -1,0 +1,487 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Gilroy,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: #A1C3D1;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #757575;
+}
+.col-2{
+    flex-basis: 45%;
+    min-width: 300px;
+}
+.col-2 h1{
+    font-family: Gilroy,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 48px;
+    color: #002955;
+}
+.col-2 p{
+    font-family: Gilroy,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 24.8px;
+    color: #002955;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 70px 25px;
+}
+.col-2 img{
+    font-size: 100px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background: #002955;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    font-family: Gilroy,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.header{
+    background: radial-gradient(currentColor);
+}
+.header .row{
+    margin-top: 70px;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.container1{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #879294;
+}
+.col-4{
+    flex-basis: 45%;
+    min-width: 300px;
+}
+.col-4 h1{
+    font-family: Gilroy,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 47px;
+    color: #002955;
+}
+.col-4 p{
+    font-family: Gilroy,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 24.8px;
+    color: #002955;
+}
+.col-4 img{
+    max-width: 100%;
+    padding: 70px 25px;
+}
+.col-4 img{
+    font-size: 100px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background: #002955;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    font-family: Gilroy,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.small-container1{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.container2{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #37474F;
+}
+.col-6{
+    flex-basis: 45%;
+    min-width: 300px;
+}
+.col-6 h1{
+    font-family: Gilroy,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 47px;
+    color: #002955;
+}
+.col-6 p{
+    font-family: Gilroy,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 24.8px;
+    color: #002955;
+}
+.col-6 img{
+    max-width: 100%;
+    padding: 20px 0px;
+}
+.col-6 img{
+    font-size: 100px;
+    line-height: 60px;
+    margin: 70px 0;
+}
+.btn{
+    display: inline-block;
+    background: #002955;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    font-family: Gilroy,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.small-container2{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.brands{
+    margin: 100px auto;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 20px;
+    position: relative;
+    line-height: 60px;
+    color: #002955;
+}
+.title::after{
+    content: '';
+    background: #ff523b;
+    width: 125px;
+    height: 5px;
+    border-radius; 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.col-8{
+    width: 160px;
+}
+.col-8 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.col-8 img:hover{
+    filter: grayscale(0);
+}
+.row3{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+<!--------------Purifier---------------->
+.col-10{
+    flex-basis: 100%;
+    min-width: 300px;
+}
+.col-10 img{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 30px 350px;
+    align-items: stretch;
+}
+.small-cont{
+    max-width: 1080px;
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.small-cont img{
+    max-width: 100%;
+}
+.row3{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-11{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+.col-11 img{
+    width: 100%;
+}
+.row11{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.title{
+    text-align: center;
+    margin: 0 auto  10px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title::after{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.title1{
+    text-align: center;
+    margin: 10px 100px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title1::after{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.title2{
+    text-align: center;
+    margin: 10px 100px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title2::after{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.title3{
+    text-align: center;
+    margin: 10px 100px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title3::after{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+<!--------------Mobile ---------------->
+.col-20{
+    flex-basis: 100%;
+    min-width: 300px;
+}
+.col-20 img{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 30px 350px;
+    align-items: stretch;
+}
+
+<!--------------Mobile ---------------->
+.col-30{
+    flex-basis: 100%;
+    min-width: 300px;
+}
+.col-30 img{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 10px 350px;
+    align-items: stretch;
+}
+
+<!-----------ContactUs-------------->
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact .content{
+    max-width: 1500px;
+    text-align: center;
+}
+.contact .content h1{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+.contact .content p{
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+.container10{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container10 .ContactInfo{
+    width: 30%;
+    display: block;
+    flex-direction: 30px;
+    color: #fff;
+}
+.container10 .ContactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    color: #333;
+}
+.container10 .ContactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container10 .ContactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container10 .ContactInfo .box .text h3{
+    font-weight: 500;
+    color: #00bcd4;
+}
+.contactform{
+    width: 40%;
+    padding:40px;
+    background: #fff;
+}
+.contactform h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactform .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactform .inputBox input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactform .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactform .inputBox input:focus ~ span,
+.contactform .inputBox input:valid ~ span
+.contactform .inputBox input:focus ~ span,
+.contactform .inputBox input:valid ~ span
+{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactform .inputBox input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
